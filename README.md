@@ -1,85 +1,70 @@
-Scalvate Digital Marketing Agency Website
-Welcome to the official repository for the Scalvate Digital Marketing Agency website! This project showcases our expertise, services, and commitment to driving unparalleled digital growth for our clients.
+<div align="center">
+  <br />
+    <img src="./public/images/readme-1.png" alt="Project Banner">
+    <img src="./public/images/readme-2.png" alt="Project Banner">
+  <br />
 
-🚀 Project Overview
-This website serves as the primary online presence for Scalvate, a cutting-edge digital marketing agency. It is designed to be highly engaging, informative, and conversion-focused, guiding potential clients through our unique approach to digital transformation.
+  <div>
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-Key Features:
-Modern & Responsive Design: Built with a sleek, dark aesthetic and fully optimized for all devices (desktop, tablet, mobile).
+  <h3 align="center">Modern UI/UX SCALVATE Website</h3>
 
-Dynamic Hero Section: Captivating headlines and subtexts designed to immediately hook visitors and encourage exploration.
+</div>
 
-Strategic Services Showcase: Clearly defined service offerings (SEO, Paid Ads, Copywriting, Email Marketing) highlighting our data-driven approach.
+---
 
-Contract-Based Investment Pathways: Transparent pricing structure with 3-month and 1-year contract options, detailing value-packed tiers.
+## 📋 Table of Contents
 
-Dedicated Legal Pages: Separate, smoothly animated Privacy Policy and Terms of Use pages for full transparency and compliance.
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+7. 🚀 [More](#more)
 
-Intelligent Navigation: Fixed header with consistent routing using react-router-dom, ensuring smooth navigation to sections on the homepage and distinct legal pages.
+---
 
-Smooth Scrolling: Animated scroll-to-top on route changes and offset-aware scrolling to homepage sections.
+## 🤖 Introduction
 
-Contact & Social Integration: Easy access to contact information and social media channels.
+**Scalvate** is a Modern UI/UX SaaS website developed using **React.js**, **Vite**, and **Tailwind CSS**, designed with sleek animations, responsive layout, and best-in-class component reusability. It's built as a high-converting template for any SaaS startup.
 
-🛠️ Technologies Used
-React.js: Frontend JavaScript library for building user interfaces.
+---
 
-Tailwind CSS: A utility-first CSS framework for rapid and responsive styling.
+## ⚙️ Tech Stack
 
-react-router-dom: For declarative routing within the single-page application.
+- 🧪 **Vite**
+- ⚛️ **React.js**
+- 🌬️ **Tailwind CSS**
 
-react-scroll: (Used selectively for homepage smooth scrolling) For animated scrolling to specific elements.
+---
 
-clsx: A tiny utility for constructing className strings conditionally.
+## 🔋 Features
 
-📦 Installation & Local Setup
-To get a local copy of this project up and running, follow these simple steps.
+- 🚀 **Hero, Features, Pricing, FAQ, Testimonials, Download**
+- 🎞️ **Smooth & Modern Animations**
+- 🎨 **Custom CSS Gradients with Pseudo Elements**
+- 🧭 **Seamless Navigation & Scroll Behavior**
+- ⚡ **Performance Optimized for Speed**
+- 📱 **Fully Responsive Across Devices**
+- 🧩 **Component-based Architecture for Reusability**
 
-Prerequisites
-Node.js (LTS version recommended)
+---
 
-npm (comes with Node.js) or Yarn
+## 🤸 Quick Start
 
-Steps
-Clone the repository:
+### Prerequisites
 
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+Make sure you have these installed:
 
-(Remember to replace your-username and your-repository-name with your actual GitHub details.)
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-Install dependencies:
+### Clone & Install
 
+```bash
+git clone https://github.com/adrianhajdin/xora.git
+cd xora
 npm install
-# OR
-yarn install
-
-Start the development server:
-
-npm start
-# OR
-yarn start
-
-This will open the application in your browser at http://localhost:3000 (or another available port).
-
-🚀 Usage
-Navigate through the sections using the header menu.
-
-Explore the services offered by Scalvate.
-
-Review the contract-based investment plans.
-
-Access the Privacy Policy and Terms of Use via the footer links.
-
-Use the contact information to get in touch with the Scalvate team.
-
-🌐 Deployment
-This application is typically deployed as a Single Page Application (SPA) using services like Vercel or Netlify. These platforms provide excellent support for react-router-dom and continuous deployment from GitHub.
-
-🤝 Contributing
-While this project is primarily for Scalvate's official website, we welcome suggestions and feedback. For major changes or feature requests, please open an issue first to discuss what you would like to change.
-
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Scalvate: Engineering Your Digital Dominance.
