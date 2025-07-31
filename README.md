@@ -65,6 +65,6 @@ Make sure you have these installed:
 ### Clone & Install
 
 ```bash
-git clone https://github.com/adrianhajdin/xora.git
+git clone https://github.com/OzgurDevFolio/scalvate-website.git
 cd xora
 npm install
