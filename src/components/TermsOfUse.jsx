@@ -38,7 +38,7 @@ const TermsOfUse = () => {
                     <h2 className="text-3xl font-bold mb-4 text-purple-300">Questions about these Terms?</h2>
                     <p className="text-lg leading-relaxed mb-6">Your understanding is important to us. For any clarifications or inquiries regarding our Terms of Use, please reach out to our team.</p>
                     <a
-                        href="mailto:[Your Email Address]"
+                        href="mailto:ozgur@scalvate.com"
                         className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-600 text-white font-bold rounded-full shadow-lg hover:from-purple-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300">
                         Get in Touch
                         <svg className="ml-3 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

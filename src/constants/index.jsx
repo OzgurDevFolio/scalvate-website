@@ -132,7 +132,7 @@ export const plans = [
         title: 'Dominate',
         priceMonthly: 9997,
         priceYearly: 8997,
-        caption: 'Exclusively for teams',
+        caption: 'Built for Market Leaders',
         features: [
             'All Accelerate features',
             'LinkedIn Ads + Retargeting Strategies',

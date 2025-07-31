@@ -1,15 +1,16 @@
-import Faq from './sections/Faq'
-import Features from './sections/Features'
-import Footer from './sections/Footer'
+import { useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import Header from './sections/header'
+import Footer from './sections/Footer'
+import Faq from './sections/Faq'
+import ScrollTop from './components/ScrollTop.jsx'
+import Features from './sections/Features'
 import Hero from './sections/hero'
 import Pricing from './sections/Pricing'
 import Testimonials from './sections/Testimonials'
 import PrivacyPolicy from './components/PrivacyPolicy.jsx'
 import TermsOfUse from './components/TermsOfUse'
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
-import ScrollTop from './components/ScrollTop.jsx'
-import { useEffect } from 'react'
+import NotFoundPage from './components/NotFoundPage.jsx'
 
 const ScrollToHash = ({ headerHeight = 96 }) => {
     const location = useLocation()
@@ -75,6 +76,7 @@ const App = () => {
 
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="/terms-of-use" element={<TermsOfUse />} />
+                    <Route path="*" element={<NotFoundPage />} />
                 </Routes>
                 <Footer />
             </main>
